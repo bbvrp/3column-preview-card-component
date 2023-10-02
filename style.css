@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%)
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin: 50px;
+    width: 900px;
+    height: 500px;
+    /*border: 1px solid red;*/
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.first {
+    width: 300px;
+    height: 100%;
+    /*border: 1px solid red;*/
+    padding-left: 2.5rem;
+    padding-right: 4rem;
+    padding-top: 2.5rem;
+    background-color: var(--Bright-orange);
+}
+.second {
+    width: 300px;
+    height: 100%;
+    /*border: 1px solid red;*/
+    padding-left: 2.5rem;
+    padding-right: 3rem;
+    padding-top: 2.5rem;
+    background-color: var(--Dark-cyan);
+}
+.third {
+    width: 300px;
+    height: 100%;
+    /*border: 1px solid red;*/
+    padding-left: 2.5rem;
+    padding-right: 3rem;
+    padding-top: 2.5rem;
+    background-color: var(--Very-dark-cyan);
+}
+
+.first h1, .second h1, .third h1 {
+    text-transform: uppercase;
+    padding-top: 1.5rem;
+    font-family: 'Big Shoulders Display', Georgia;
+    color: var(--Very-light-gray);
+    font-size: 2.5em;
+    
+}
+
+.first p, .second p, .third p {
+    padding-top: 1.5rem;
+    line-height: 1.8em;
+    color: var(--Transparent-white);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+
+.btn1, .btn2, .btn3 {
+    /*border: 1px solid red;*/
+    margin-top: 7rem;
+} 
+
+.btn1 a {
+    padding: .8rem 2rem .8rem 2rem;
+    border-radius: 20px;
+    background-color: #fff;
+    text-decoration: none;
+    color: var(--Bright-orange);
+    font-size: small;
+}
+
+.btn2 a {
+    padding: .8rem 2rem .8rem 2rem;
+    border-radius: 20px;
+    background-color: #fff;
+    text-decoration: none;
+    color: var(--Dark-cyan);
+    font-size: small;
+}
+
+.btn3 a {
+    padding: .8rem 2rem .8rem 2rem;
+    border-radius: 20px;
+    background-color: #fff;
+    text-decoration: none;
+    color: var(--Very-dark-cyan);
+    font-size: small;
+}
+
+
+.btn1 a:hover {
+    color: var(--Very-light-gray);
+    background-color: var(--Bright-orange);
+    border: 1px solid var(--Very-light-gray);
+}
+
+.btn2 a:hover {
+    color: var(--Very-light-gray);
+    background-color: var(--Dark-cyan);
+    border: 1px solid var(--Very-light-gray);
+}
+
+.btn3 a:hover {
+    color: var(--Very-light-gray);
+    background-color: var(--Very-dark-cyan);
+    border: 1px solid var(--Very-light-gray);
+}
+
+
+
+
+
+
